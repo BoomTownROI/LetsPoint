@@ -138,7 +138,7 @@ const Ticket: React.FunctionComponent<MyProps> = ({
         )}
       </div>
 
-      <form className="mb-2">
+      <form className="mb-4">
         <RadioSet
           id={t.id}
           value={currentVote}
@@ -152,7 +152,7 @@ const Ticket: React.FunctionComponent<MyProps> = ({
         <AvatarList
           imgSize="small"
           userList={voterList}
-          getDotColor={id => (t.votes[id] === undefined ? 'bg-red-1' : '')}
+          getDotColor={id => (t.votes[id] === undefined ? 'bg-violet-4' : '')}
         />
       </div>
     </article>
