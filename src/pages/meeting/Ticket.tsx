@@ -150,7 +150,6 @@ const Ticket: React.FunctionComponent<MyProps> = ({
 
       <div className="mx-1">
         <AvatarList
-          imgSize="small"
           userList={voterList}
           getDotColor={id => (t.votes[id] === undefined ? 'bg-red-1' : '')}
         />

@@ -13,7 +13,7 @@ type MyProps = {
 const AvatarList: React.FC<MyProps> = ({
   userList,
   getDotColor,
-  imgSize = 'small',
+  imgSize = 'medium',
   showPlaceholder,
   onClick,
 }) => {
